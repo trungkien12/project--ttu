@@ -1,0 +1,20 @@
+.form__container {
+    width: 56%;
+    align-self: center;
+    margin: 50px 22%;
+    padding: 30px;
+    border: 1px solid darkblue;
+}
+
+.back--homepage {
+    align-self: center;
+    color: black;
+    text-transform: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-arrow-left {
+    margin: 0 10px;
+    align-self: center;
+}

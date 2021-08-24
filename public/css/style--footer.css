@@ -1,0 +1,76 @@
+.footer {
+    background-color: #2d2d2d;
+}
+
+.footer__container {
+    width: 70%;
+    align-self: center;
+    margin: 20px 15%;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ttu__content--list,
+.departments__content--list,
+.contact__content--list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px 0;
+    color: #FFF;
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 21px;
+    padding: 10px 20px;
+    border: 1px solid rgb(146, 145, 145);
+    border-top: 3px solid green ;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer__top--ttu,
+.footer__top--departments,
+.footer__top--contact {
+    margin: 60px 0;
+
+}
+
+.ttu__title,
+.departments__title,
+.contact__title {
+    background-color: #424242;
+    align-content: center;
+}
+
+.footer__bottom--text {
+    font-size: 13px;
+    color: #FFF;
+}
+
+.footer__bottom {
+    background-color: #0d0d0d;
+}
+
+.footer__bottom--container {
+    width: 70%;
+    margin: 0 15%;
+    align-self: center;
+}
+
+.footer__bottom--container h5 {
+    color: #FFF;
+    font-size: 10px;
+    padding: 5px;
+    margin:  0 30px;
+}
