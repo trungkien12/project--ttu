@@ -9,7 +9,6 @@ class controller
 
     public function view($view, $data=[]) {
         require_once "./src/views/layouts/".$view.".php";
-        
     }
 }
 

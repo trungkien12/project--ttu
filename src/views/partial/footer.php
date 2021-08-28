@@ -1,3 +1,7 @@
+<header>
+<link rel="stylesheet" href="../public/css/style--footer.css">
+</header>
+
 <section class="footer">
 
 <section class="footer__container">

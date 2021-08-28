@@ -3,9 +3,28 @@
 class home extends controller
 {
 
-    function defaultPage()
+    public $GroupNewsModel;
+
+    public function __construct()
     {
-        $this->view("home");
+        $this->GroupNewsModel = $this->model("groupnewsModel");
     }
 
+    
+    function defaultPage()
+    {
+        $gr = $this->GroupNewsModel->selectGroupnews();
+
+        // while($r = mysqli_fetch_array($gr)) {
+        //     $id = $r['id_groupnews'];
+        //     $name = $r['name_groupnews'];
+        //     echo "<li> <a> $name </a> </li>";
+        // }
+        $this->view("home", [
+            "gr" => $gr 
+        ]);
+    }
+    
 }
+
+?>

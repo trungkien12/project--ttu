@@ -1,0 +1,20 @@
+.carousel-item {
+    width: 70%;
+    align-content: center;
+    margin: 0 15%;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.carousel-item img {
+    height: 630px;
+    line-height: 100px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 70%;
+    align-self: center;
+    margin: 0 15%;
+}

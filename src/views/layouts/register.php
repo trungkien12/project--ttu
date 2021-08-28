@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="../public/css/style--header.css"> -->
-    <!-- <link rel="stylesheet" href="../public/css/style--footer.css"> -->
-    <!-- <link rel="stylesheet" href="../public/css/slider.css"> -->
+    <!-- <link rel="stylesheet" href="../public/css/style--header.css">
+    <link rel="stylesheet" href="../public/css/style--footer.css"> -->
+    <link rel="stylesheet" href="../public/css/form--register.css">
     <link rel="stylesheet" href="../public/font/fontawesome-free-5.15.2-web/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
 <?php require_once "./src/views/partial/header.php" ?>
     
-<?php require_once "./src/views/layouts__content/slider.php"?>
+<?php require_once "./src/views/layouts__content/register.php"?>
 
 <?php require_once "./src/views/partial/footer.php" ?>
 

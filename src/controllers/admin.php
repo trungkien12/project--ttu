@@ -4,13 +4,12 @@
     {
         function defaultPage() 
         {
-            $this->view("login");
+            //  $this->view("admin", [
+            //     "result" => $kq     
+            // ]);
         }
 
-        function login() 
-        {
-            $this->view("login");
-        }
+
     }
 
 ?>
