@@ -29,7 +29,9 @@ a {
     color: #FFF;
 }
 
-p {
+.ttu__title p,
+.departments__title p,
+.contact__title p {
     text-transform: capitalize;
     font-size: 21px;
     padding: 10px 20px;

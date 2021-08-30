@@ -3,9 +3,20 @@
 class news extends controller
 {
 
+    public $GroupNewsModel;
+
+    public function __construct()
+    {
+        $this->GroupNewsModel = $this->model("groupnewsModel");
+    }
+
+    
     function defaultPage()
     {
-        $this->view("news");
+        $gr = $this->GroupNewsModel->selectGroupnews();
+        $this->view("news", [
+            "gr" => $gr 
+        ]);
     }
 }
 

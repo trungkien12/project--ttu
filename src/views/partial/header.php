@@ -1,6 +1,6 @@
-<header>
+<!-- <header>
 <link rel="stylesheet" href="../public/css/style--header.css">
-</header>
+</header> -->
 <div class="header__top">
        <div class="header__top--navbar">
            <ul class="top__navbar">
@@ -37,12 +37,14 @@
                    <ul class="subnav">
 
                             <!-- Đoạn mã php móc bảng groupnews(nhóm tin) trong db ra                         -->
-                            <!-- while($r = mysqli_fetch_array($data["gr"])) {
+                        <?php
+                            while($r = mysqli_fetch_array($data["gr"])) {
                                 $id = $r['id_groupnews'];
                                 $name = $r['name_groupnews'];
                                 echo "<li> <a href='http://localhost:8080/project--ttu/news/'> $name </a> </li>";
-                            } -->
-
+                            }
+                        ?>
+                        
                    </ul>
                 </li>
                <li>  <a href="#"> đóng góp </a>  </li>

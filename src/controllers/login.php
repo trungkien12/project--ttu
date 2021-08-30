@@ -1,17 +1,24 @@
 <?php
 
+    // if (session_start() == false) session_start();
+
     class login extends controller
     {
         public $UserModel;
+        public $GroupNewsModel;
 
         public function __construct()
         {
             $this->UserModel = $this->model("userModel");
+            $this->GroupNewsModel = $this->model("groupnewsModel");
         }
 
         function defaultPage() 
         {
-            $this->view("login");
+            $gr = $this->GroupNewsModel->selectGroupnews();
+            $this->view("login", [
+                "gr" => $gr 
+            ]);
         }
 
         function processLogin()
@@ -23,10 +30,16 @@
                 // $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
                 $kq = $this->UserModel->TestInput( $email,  $password);
-                // $this->view("admin", [
-                //     "result" => $kq
-                // ]);
-                header("location:  http://localhost:8080/project--ttu/admin/ ");
+
+                if(isset($kq)) 
+                { 
+                        if($kq == "true"){
+                            // $_SESSION["user"] = $email;
+                            header("location:  http://localhost:8080/project--ttu/admin/ ");
+                        }else{
+                            header("location:  http://localhost:8080/project--ttu/home/ ");
+                        }
+                } 
             }else{
                 header("location:  http://localhost:8080/project--ttu/home/ ");
             }

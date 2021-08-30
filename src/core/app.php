@@ -8,7 +8,6 @@
         function __construct()
         {
           $arr = $this->UrlProcess();  
-
         // xử lý controller
         // hàm file_exists dùng để kiểm tra file có tồn tại hay không
 

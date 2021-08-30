@@ -1,6 +1,6 @@
-<header>
+<!-- <header>
 <link rel="stylesheet" href="../public/css/style--footer.css">
-</header>
+</header> -->
 
 <section class="footer">
 

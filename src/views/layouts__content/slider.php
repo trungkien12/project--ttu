@@ -1,4 +1,4 @@
-<header><link rel="stylesheet" href="../public/css/slider.css"></header>
+<!-- <header><link rel="stylesheet" href="../public/css/slider.css"></header> -->
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
