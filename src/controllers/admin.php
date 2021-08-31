@@ -21,7 +21,11 @@ if (session_id() === '' ) session_start();
             {
                 header("location:  http://localhost:8080/project--ttu/home/ ");
             }
-            $this->view("admin");
+
+            $news = $this->NewsModel->selectNews();
+            $this->view("admin", [
+                "news" =>$news
+            ]);
         }
 
         function addgroup() {

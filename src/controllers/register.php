@@ -28,15 +28,14 @@
                 $password = $_POST["txtPass"];
                 // $hashed_password = password_hash($password, PASSWORD_BCRYPT);
                 $location = $_POST["txtLocation"];
+                $kq = $this->UserModel->InsertNewUser($fullname, $email, $username, $password, $location);
+
+                header("location:  http://localhost:8080/project--ttu/login/ ");
             }else{
                 header("location:  http://localhost:8080/project--ttu/home/ ");
             }
             // 2. INSERT databse vào bảng users
-            $kq = $this->UserModel->InsertNewUser($fullname, $email, $username, $password, $location);
 
-            $this->view("register", [
-                "result" => $kq
-            ]);
 
         }
     }

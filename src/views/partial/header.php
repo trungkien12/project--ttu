@@ -41,7 +41,7 @@
                             while($r = mysqli_fetch_array($data["gr"])) {
                                 $id = $r['id_groupnews'];
                                 $name = $r['name_groupnews'];
-                                echo "<li> <a href='http://localhost:8080/project--ttu/news/${id}'> $name </a> </li>";
+                                echo "<li> <a href='http://localhost:8080/project--ttu/news/'> $name </a> </li>";
                             }
                         ?>
                         

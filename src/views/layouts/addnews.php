@@ -49,6 +49,12 @@
         .td a {
             color: black;
         }
+
+        h3 {
+            background-color: #CCC;
+            height: 50px;
+            line-height: 50px;
+        }
     </style>
 </head>
 <body>
@@ -63,7 +69,7 @@
         <th class='th'>Mô tả</th>
         <th class='th'>Ảnh mô tả</th>
         <th class='th'>Nội dung</th>
-        <th class='th'>Chức năng</th>
+        <!-- <th class='th'>Chức năng</th> -->
     </tr>
 
 
@@ -85,7 +91,7 @@
                 echo "<td class='td'>$titlenews</td>";
                 echo "<td class='td'>$excerptnews</td>";
                 echo "<td class='td'>$img</td>";
-                echo "<td class='td'>$content</td>";
+                // echo "<td class='td'>$content</td>";
                 
                 echo "<td class='td'>";
                     echo "<a href='http://localhost:8080/project--ttu/admin/UpdateNews/$idnews'> Sửa </a>";

@@ -27,6 +27,11 @@ class newsModel extends DB {
         return mysqli_query($this->con, $qr);
     }
 
+    public function selectOneNews(){
+        $qr = "SELECT * FROM news";
+        return mysqli_query($this->con, $qr);
+    }
+
     }
 
 ?>

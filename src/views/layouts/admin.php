@@ -13,7 +13,9 @@
 <body>
 <?php require_once "./src/views/partial/headerAdmin.php" ?>
     
-<h1>  Chào mừng bạn đến trang quản trị  </h1>
+<?php require_once "./src/views/layouts__content/admin.php" ?>
+
+<?php require_once "./src/views/partial/footer.php" ?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

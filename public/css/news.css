@@ -1,3 +1,10 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
 
     .entry__crumbs--container {
         align-self: center;
@@ -38,5 +45,79 @@
     width: 70%;
     text-align: center;
     margin: 0 15%;
-    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.category__left {
+    flex: 4;
+}
+
+.category__right {
+    flex: 3;
+}
+
+#post img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#extit {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+#extit a,
+#extit p {
+    width: 800px;
+    text-align: start;
+}
+
+#extit a {
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+#extit p {
+    color: rgb(144, 137, 137);
+    font-size: 18px;
+}
+
+table {
+    margin: 25px 0;
+}
+
+#extit a:hover {
+    color: rgb(74, 125, 23);
+}
+
+.AdmissionsInfo,
+.activate {
+    border: 1px solid #CCC;
+    margin: 20px 0 30px 0;
+    width: 350px ;
+    height: 70px;
+    border-top: 3px solid green ;
+
+}
+
+.activate p,
+.AdmissionsInfo p {
+    margin: auto;
+    line-height: 60px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.AdmissionsInfoImg img {
+    margin: 3px 0;
+    height: 60px;
+}
+
+.ActivateImg img {
+    width: 350px;
+    height: 150px;
+    margin: 5px 0;
 }
