@@ -1,6 +1,6 @@
 <?php
 
-    // if (session_start() == false) session_start();
+    if (session_id() === '' ) session_start();
 
     class login extends controller
     {
@@ -34,14 +34,14 @@
                 if(isset($kq)) 
                 { 
                         if($kq == "true"){
-                            // $_SESSION["user"] = $email;
-                            header("location:  http://localhost:8080/project--ttu/admin/ ");
+                            $_SESSION["user"] = $email;
+                            header("Location:  http://localhost:8080/project--ttu/admin/ ");
                         }else{
-                            header("location:  http://localhost:8080/project--ttu/home/ ");
+                            header("Location:  http://localhost:8080/project--ttu/home/ ");
                         }
                 } 
             }else{
-                header("location:  http://localhost:8080/project--ttu/home/ ");
+                header("Location:  http://localhost:8080/project--ttu/home/ ");
             }
 
 

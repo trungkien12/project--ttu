@@ -3,8 +3,8 @@
 class newsModel extends DB {
 
     public function insertNews($idgr, $title, $excerpt, $img_excerpt, $content) {
-        $qr = "INSERT INTO `news` (`id_news`, `id_groupnews`, `news_title`, `news_excerpt`, `news_imgexcerpt`, `news_content`) VALUES ('', '$idgr', '$title', '$excerpt', '$img_excerpt', '$content') ";
-         return mysqli_query($this->con, $qr);
+        $qr = "INSERT INTO `news` (`id_groupnews`, `news_title`, `news_excerpt`, `news_imgexcerpt`, `news_content`) VALUES ('${idgr}', '${title}', '${excerpt}', '${img_excerpt}', '${content}'); ";
+        return mysqli_query($this->con, $qr);
     }
 
     public function selectNews(){

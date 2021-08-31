@@ -30,4 +30,9 @@
 
     </div>
 
+    <div class="row1">
+        <div class="row1__l"><img src="../public/image/banner-web-dang-ky-truc-tuyen-1.jpg" alt=""></div>
+        <div class="row1__r"><img src="../public/image/nhap-hoc-truc-tuyen.jpg" alt=""></div>
+    </div>
+
 </section>

@@ -108,4 +108,10 @@
     display: block;
 }
 
+ul.subnav {
+    position: absolute;
+    z-index: 999999;
+    background: white;
+}
+
 /* END CSS FOR HEADER bottom navbar */

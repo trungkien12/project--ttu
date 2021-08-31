@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../public/css/style--header.css">
     <link rel="stylesheet" href="../public/css/style--footer.css">
     <link rel="stylesheet" href="../public/css/form--login.css">
-    <link rel="stylesheet" href="../public/font/fontawesome-free-5.15.2-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../public/font/fontawesome-free-5.15.2-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>

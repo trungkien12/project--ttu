@@ -1,37 +1,8 @@
-<style>
-    .entry__crumbs--container {
-        align-self: center;
-        width: 70%;
-        text-align: center;
-        margin: 0 15%;
-    }
 
-    .newsPage {
-        border-bottom: 1px solid #CCC;
-    }
+<head>
+<link rel="stylesheet" href="../public/css/news.css">
+</head>
 
-
-    .entry__crumbs {
-        display: flex;
-    }
-
-    .entry__crumbs a {
-        color: black;
-        margin: 20px 10px;
-        font-size: 16px;
-    }
-
-    .entry__crumbs i {
-        margin: 25px 0;
-    }
-
-    .entry__crumbs p {
-        margin: 21px 10px ;
-        font-size: 15px;
-        text-transform: uppercase;
-    }
-
-</style>
 
 <div class="newsPage">
 
@@ -41,6 +12,30 @@
             <i class="fas fa-angle-right"></i>
             <p>Tin tức & sự kiên</p>
         </div> 
+    </div>
+
+</div>
+
+<div class="category">
+
+    <div class="category__left" col-9>
+        <div class="Post">
+            <div class="Post__img">
+                <img src="../public/image/Tran-Trong-Nhan-304x420.jpg" alt="">
+            </div>
+            <div class="Post__text">
+                <div class="Post__text--title">
+
+                </div>
+                <div class="Post__text--excerpt">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category__right" col-3>
+        <div class="AdmissionsInfo"></div>
     </div>
 
 </div>

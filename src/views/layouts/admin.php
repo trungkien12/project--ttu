@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../public/css/style--header.css">
     <link rel="stylesheet" href="../public/css/style--footer.css">
     <link rel="stylesheet" href="../public/css/slider.css">
-    <link rel="stylesheet" href="../public/font/fontawesome-free-5.15.2-web/css/all.min.css">
     <title>Document</title>
 </head>
 <body>

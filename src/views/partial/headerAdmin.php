@@ -10,7 +10,7 @@
                <a href="" class="top__navbar--item"><li>giảng viên/nhân viên</li></a>
                <a href="" class="top__navbar--item"><li>cựu sinh viên</li></a>
                <a href="" class="top__navbar--item"><li>liên hệ</li></a>
-               <a href="" class="top__navbar--item"><li>Log out</li></a>
+               <a href="http://localhost:8080/project--ttu/logout/" class="top__navbar--item"><li>Log out</li></a>
                <a href="" class="top__navbar--item"><img src="../public/image/vi.png" alt=""> <i class="fas fa-chevron-down"></i></a>
            </ul>
        </div>

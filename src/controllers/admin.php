@@ -1,6 +1,7 @@
 <?php
 
-    // if (session_start() == false) session_start();
+   
+if (session_id() === '' ) session_start();
 
     class admin extends controller
     {
@@ -16,10 +17,10 @@
 
         function defaultPage() 
         {
-            // if (!isset($_SESSION["user"]))
-            // {
-            //     header("location:  http://localhost:8080/project--ttu/home/ ");
-            // }
+            if (!isset($_SESSION["user"]))
+            {
+                header("location:  http://localhost:8080/project--ttu/home/ ");
+            }
             $this->view("admin");
         }
 
@@ -123,7 +124,7 @@
                 $content = $_POST['content'];
 
                 $this->NewsModel->updateNews($id, $idgr, $title, $excerpt, $img_excerpt, $content);
-                header("location:  http://localhost:8080/project--ttu/admin/addnews ");
+                header("location:  http://localhost:8080/project--ttu/admin/");
             }else {
                 echo "somgthing went wrong";
             }
@@ -132,7 +133,7 @@
         function processDeleteNews($id){
             if(isset($id)){
                 $this->NewsModel->deleteNews($id);
-                echo "Bạn đã xoá nhóm tin thành công!";
+                echo "Bạn đã xoá bài viết thành công thành công!";
             }
         }
     }

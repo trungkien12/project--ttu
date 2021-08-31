@@ -18,6 +18,8 @@ class news extends controller
             "gr" => $gr 
         ]);
     }
+
+    
 }
 
 ?>
